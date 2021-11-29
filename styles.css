@@ -1,0 +1,37 @@
+* {
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+body {
+    background-color: #36454F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: #7393B3;
+}
+
+
+.headerContainer {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.textContainer {
+    margin-top: 5%;
+    min-width: 500px;
+    min-height: 300px;
+    max-width: 500px;
+    max-height: 300px;
+    border: 20px;
+    border-style: solid;
+}
+
+.hidden {
+    display: none;
+}
